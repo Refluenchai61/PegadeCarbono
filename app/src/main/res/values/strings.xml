@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pegada de Carbono</string>
+    <string name="nome">Nome</string>
+    <string name="descricao">Descrição</string>
+    <string name="form_cliente">Cadastro Cliente</string>
+    <string name="form_cliente_complementar">Cadastro CC</string>
+    <string name="form_usuario">Cadastro Usuário</string>
+    <string name="form_tipo_usuario">Cadastro TU</string>
+    <string name="form_documento">Cadastro Documento</string>
+    <string name="form_tipo_documento">Cadastro TD</string>
+    <!--cliente-->
+    <string name="nome_fantasia">Nome Fantasia</string>
+    <string name="telefone">Telefone</string>
+    <string name="ativo">Ativo</string>
+    <!--clientecomplementos-->
+    <string name="cliente_id">Cliente ID</string>
+    <string name="tipo_documento_id">Tipo Documento ID</string>
+    <!--documento-->
+    <string name="registro_id">Registro ID</string>
+    <string name="informacoes">Informacoes</string>
+    <string name="quantidade">Quantidade</string>
+    <!--usuario-->
+    <string name="login">Login</string>
+    <string name="senha">Senha</string>
+    <string name="tipo_usuario_id">Tipo Usuario ID</string>
+    <string name="visualiza_documentos">Visualizador de documentos</string>
+</resources>

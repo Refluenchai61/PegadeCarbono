@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarbonitoActivity"
+    android:background="@color/colorBackgroundScreen">
+
+    <TextView
+        android:id="@+id/eletricidadelbl"
+        android:layout_width="313dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="25dp"
+        android:text="Energia elétrica:"
+        android:textColor="@color/colorTexts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/eletricidadetxt"
+        android:layout_width="340dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Gasto com energia eletrica/mês"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorLine"
+        android:textColorHint="@color/colorHint"
+        android:theme="@style/MyEditTextStyle2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/agualbl"
+        android:layout_width="314dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorTexts"
+        android:text="Água"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/aguatxt"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="164dp"
+        android:ems="10"
+        android:hint="Gasto com água/mês"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorLine"
+        android:textColorHint="@color/colorHint"
+        android:theme="@style/MyEditTextStyle2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
